@@ -1,23 +1,22 @@
 name: Node Build Example
 
-on: push 
+on: push
 
-jobs: 
+jobs:
   Hello-job:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
-        with: 
+        with:
           node-version: 18
-              
-      - name: Install Dependencies 
-        run : npm install
+
+      - name: Install Dependencies
+        run: npm install
 
       - name: Run Script
-        run : npm run build
-
+        run: npm run build
