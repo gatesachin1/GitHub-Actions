@@ -1,9 +1,10 @@
 name: Hello Workflow
 
-on: push 
+on: 
+  push 
 
 jobs: 
-  Hello:
+  Hello-job:
     runs-on: ubuntu-latest
     
     steps:
