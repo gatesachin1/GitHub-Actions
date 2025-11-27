@@ -12,7 +12,7 @@ jobs:
           node-version: 18  
       
       - name: Install Dependencies 
-        uses: npm install
+        run : npm install
 
       - name: Run Script
         run : npm run build
