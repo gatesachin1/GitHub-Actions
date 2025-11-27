@@ -17,10 +17,10 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          cd app
+          cd apps
           npm install
 
       - name: Run Script
         run: |
-          cd app
+          cd apps
           npm run build
