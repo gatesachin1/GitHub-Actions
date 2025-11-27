@@ -1,0 +1,11 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js project for GitHub Actions demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
