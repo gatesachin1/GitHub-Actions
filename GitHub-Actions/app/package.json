@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Demo Node app",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo Building your project...",
+    "test": "echo Running tests..."
+  },
+  "dependencies": {}
+}
